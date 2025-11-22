@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Líder Comercial Estratégico</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              cream: '#FAF9F6',
+              peach: {
+                50: '#FFF8F2',
+                100: '#FFF0E5',
+                200: '#FFE0CC',
+                300: '#FFD1B3',
+                400: '#FFB38A',
+                500: '#E07A5F', // Warm Terracotta/Peach accent
+              },
+              brown: {
+                400: '#8C7B70',
+                600: '#5D4E46',
+                800: '#2C2420', // Deep warm black
+              },
+              sage: {
+                100: '#E8EFE9',
+                300: '#B8C9C1',
+                500: '#8DA399',
+                700: '#4A5D53',
+              },
+            },
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+              hand: ['"Caveat"', 'cursive'],
+            },
+            borderRadius: {
+              '4xl': '2.5rem',
+              '5xl': '3rem',
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      /* Smooth scrolling */
+      html { scroll-behavior: smooth; }
+      body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-cream text-brown-800 antialiased">
+    <div id="root"></div>
+  </body>
+</html>
