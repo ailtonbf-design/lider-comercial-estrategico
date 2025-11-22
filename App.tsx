@@ -595,7 +595,7 @@ function App() {
       {/* BLOCO 17 - RODAPÉ */}
       <footer className="bg-brown-800 text-brown-400 py-12 text-center border-t border-white/10">
         <div className="max-w-7xl mx-auto px-6">
-          <p className="mb-4">© 2024 Protocolo Líder Comercial Estratégico. Todos os direitos reservados.</p>
+          <p className="mb-4">© 2025 Protocolo Líder Comercial Estratégico. Todos os direitos reservados.</p>
           <div className="flex justify-center gap-6 text-sm">
             <a href="#" className="hover:text-white transition-colors">Termos de Uso</a>
             <a href="#" className="hover:text-white transition-colors">Política de Privacidade</a>

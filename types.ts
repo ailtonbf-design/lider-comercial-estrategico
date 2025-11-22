@@ -1,3 +1,5 @@
+import React from 'react';
+
 export interface AccordionItem {
   question: string;
   answer: string;
